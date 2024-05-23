@@ -1,7 +1,7 @@
 import React from 'react';
 import Tv from '../Images/tv.jpg';
 import Tape from '../Images/tape.jpg';
-import { motion } from 'framer-motion';
+import { easeIn, easeInOut, easeOut, motion } from 'framer-motion';
 
 function LandingPage() {
 
@@ -10,7 +10,8 @@ function LandingPage() {
   return (
       <div className='w-full h-screen text-white bg-[#0C0D0E]'>
         <motion.div 
-        animate={{y:-1000}}
+        animate={{y:-750}}
+        transition={{duration: 2, ease: easeOut}}
         className='w-full h-full bg-black absolute z-[16]'></motion.div>
         <div className='w-full h-[90px] items-center absolute text-[17px] z-[11] flex'>
             <div className='flex h-full items-center'>
@@ -54,7 +55,11 @@ function LandingPage() {
             </div>
         </div>
 
-        <div className='w-full absolute z-[10] flex flex-col items-center'>
+        <motion.div 
+        animate={{y: 0}}
+        initial={{y: 50}}
+        transition={{ease: easeInOut, duration: 2}}
+        className='w-full absolute z-[10] flex flex-col items-center overflow-hidden'>
         <div className='text-[340px] z-[10] uppercase' style={{fontFamily : "mainFont"}}>
             Creative Designer
         </div>
@@ -67,7 +72,7 @@ function LandingPage() {
             transition={{ duration: 2, repeat: Infinity}}
             className='w-full h-[20px] bg-white'></motion.div>
         </div>
-        </div>
+        </motion.div>
 
 
         <div className='flex w-full p-[10px]'>
