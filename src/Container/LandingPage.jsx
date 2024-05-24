@@ -1,7 +1,8 @@
 import React from 'react';
+import "../app.css"
 import Tv from '../Images/tv.jpg';
 import Tape from '../Images/tape.jpg';
-import { easeIn, easeInOut, easeOut, motion } from 'framer-motion';
+import { easeInOut, easeOut, motion } from 'framer-motion';
 
 function LandingPage() {
 
