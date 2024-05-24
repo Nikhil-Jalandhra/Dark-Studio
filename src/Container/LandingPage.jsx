@@ -14,44 +14,37 @@ function LandingPage() {
         animate={{y:-750}}
         transition={{duration: 2, ease: easeOut}}
         className='w-full h-full bg-black absolute z-[16]'></motion.div>
-        <div className='w-full h-[90px] items-center absolute text-[17px] z-[11] flex'>
+
+        <div className='w-full h-[90px] px-[10px] items-center absolute text-[17px] z-[11] flex'>
             <div className='flex h-full items-center'>
-                <div className='px-1 h-[30px] m-[40px] cursor-pointer overflow-hidden'>
-                    <motion.div 
-                    whileHover={{y:-30}}
-                    className=' px-1 h-full w-full'>
-                    <p>About</p>
-                    <p className='mt-1'>About</p>
-                    </motion.div>
+                <div className=' flex items-center justify-center containers h-[30px] mx-[25px] py-[30px] cursor-pointer overflow-hidden'>
+                <div className='h-[30px] overflow-hidden'>
+                    <p className='anime'>About</p>
+                    <p className='anime'>About</p>
                 </div>
-                <div className='px-1 h-[30px] m-[40px] cursor-pointer overflow-hidden'>
-                    <motion.div 
-                    whileHover={{y:-30}}
-                    className=' px-1 h-full w-full'>
-                    <p>Portfolio</p>
-                    <p className='mt-1'>Portfolio</p>
-                    </motion.div>
+                </div>
+                <div className=' flex items-center justify-center containers px-1 h-[30px] mx-[25px] py-[30px] cursor-pointer overflow-hidden'>
+                <div className='h-[30px] overflow-hidden'>
+                    <p className='anime'>Portfolio</p>
+                    <p className='anime'>Portfolio</p>
+                </div>
                 </div>
             </div>
             <div className='w-full h-full flex items-center justify-center text-[40px] uppercase' style={{fontFamily : "mainFont"}}>
                 Dark-Studio
             </div>
             <div className='flex h-full items-center'>
-            <div className='px-1 h-[30px] m-[40px] cursor-pointer overflow-hidden'>
-                    <motion.div 
-                    whileHover={{y:-30}}
-                    className=' px-1 h-full w-full'>
-                    <p>Service</p>
-                    <p className='mt-1'>Service</p>
-                    </motion.div>
+                <div className=' flex items-center justify-center containers h-[30px] mx-[25px] py-[30px] cursor-pointer overflow-hidden'>
+                <div className='h-[30px] overflow-hidden'>
+                    <p className='anime'>Service</p>
+                    <p className='anime'>Service</p>
                 </div>
-                <div className='px-1 h-[30px] m-[40px] cursor-pointer overflow-hidden'>
-                    <motion.div 
-                    whileHover={{y:-30}}
-                    className=' px-1 h-full w-full'>
-                    <p>Contact</p>
-                    <p className='mt-1'>Contact</p>
-                    </motion.div>
+                </div>
+                <div className=' flex items-center justify-center containers px-1 h-[30px] mx-[25px] py-[30px] cursor-pointer overflow-hidden'>
+                <div className='h-[30px] overflow-hidden'>
+                    <p className='anime'>Contact</p>
+                    <p className='anime'>Contact</p>
+                </div>
                 </div>
             </div>
         </div>
