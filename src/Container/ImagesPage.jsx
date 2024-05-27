@@ -1,5 +1,4 @@
 import {React} from 'react';
-import "../app.css"
 import window1 from '../Images/window1.jpg'
 import window2 from '../Images/window2.jpg'
 import window3 from '../Images/window3.jpg'
@@ -19,7 +18,6 @@ function ImagesPage() {
       text: "Creativity",
       date: "22.5.24",
       Heading: "Mystery Room"
-      
     },
     {
       window: window3,
@@ -31,15 +29,15 @@ function ImagesPage() {
       window: window4,
       text: "Branding",
       date: "24.5.24",
-      Heading: "Peace"
+      Heading: "Classy Club"
     }
   ]
 
   return (
-    <div className='w-full h-full bg-[#0C0D0E] py-3 px-[40px]'>
+    <div className='w-full h-full py-3 px-[40px]'>
 
       {Images.map((image,index)=>(
-        <div key={index} className='w-full h-screen py-[10px] bg-[#0C0D0E] text-white'>
+        <div key={index} className='w-full h-screen py-[10px]'>
         <div className=' relative w-full h-full rounded-md'>
           <div className='absolute px-[30px] z-[1] font-semibold w-full h-[80px] items-center flex justify-between'>
               <p>{image.text}</p>
@@ -57,7 +55,7 @@ function ImagesPage() {
                       {image.Heading}
                   </p>
                   <div className=' containers px-4 h-[35px] flex justify-center items-center  border-[1px] border-gray-700 rounded-full cursor-pointer overflow-hidden'>
-                  <div className='h-[30px] overflow-hidden'>
+                  <div className='h-[30px] mt-1 overflow-hidden'>
                       <p className='anime'>View Project</p>
                       <p className='anime'>View Project</p>
                   </div>

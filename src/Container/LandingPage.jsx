@@ -1,5 +1,4 @@
 import React from 'react';
-import "../app.css"
 import Tv from '../Images/tv.jpg';
 import Tape from '../Images/tape.jpg';
 import { easeInOut, easeOut, motion } from 'framer-motion';
@@ -9,7 +8,7 @@ function LandingPage() {
 
 
   return (
-      <div className='w-full h-screen text-white bg-[#0C0D0E]'>
+      <div className='w-full h-screen'>
         <motion.div 
         animate={{y:-750}}
         transition={{duration: 2, ease: easeOut}}
