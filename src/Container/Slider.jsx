@@ -1,9 +1,11 @@
 import {React, useState} from 'react';
+import { easeInOut, motion } from 'framer-motion';
 import { TfiArrowRight } from "react-icons/tfi";
 import { TfiArrowLeft } from "react-icons/tfi";
 import { BsDot } from "react-icons/bs";
 import Profile from '../Images/Profile.jpg'
 import Profile1 from '../Images/Profile1.jpg'
+import { easeIn } from 'framer-motion/dom';
 
 function Slider() {
 
@@ -42,19 +44,32 @@ function Slider() {
         </div>
 
           <div className='w-full h-screen absolute flex justify-center text-center top-0'>
-          <div className='w-[200px] h-[195px] absolute top-[80px] opacity-[0.9] rounded-lg overflow-hidden'>
+          <motion.div
+          key={changePath}
+          initial={{y:50,opacity: 0}}
+          animate={{y:0, opacity: 1}}
+          transition={{duration: 1, ease: easeInOut}} 
+          className='w-[200px] h-[195px] absolute 
+          top-[110px] opacity-[0.9] rounded-lg overflow-hidden'>
               <img src={content.data[changePath].image} alt="" />
-          </div>
-  
-              <p className=' text-[120px] leading-[120px] absolute top-[200px] uppercase'
+          </motion.div>
+
+          <motion.div
+          key={changePath}
+          initial={{y:60,opacity: 0}}
+          animate={{y:0, opacity: 1}}
+          transition={{duration: 1.8, ease: easeInOut}}   
+          className='absolute top-[250px] flex flex-col items-center uppercase'>
+            <p className=' text-[120px] leading-[120px]'
               style={{fontFamily : "mainFont"}}>
                      " {content.data[changePath].heading1}<br />{content.data[changePath].heading2}"
-              </p>
+            </p>
               
-              <p className='absolute uppercase flex 
-              items-center text-[18px] font-normal top-[500px]'>
+            <p className='flex 
+              items-center text-[18px] font-normal mt-[40px]'>
                 {content.data[changePath].name} <BsDot/> {content.data[changePath].founder}
-              </p>
+            </p>
+          </motion.div>
         </div>
 
     </div>
