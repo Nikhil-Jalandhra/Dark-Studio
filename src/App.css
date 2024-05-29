@@ -10,3 +10,19 @@
 .containers:hover .anime {
     transform: translateY(-24px);
 }
+
+
+.containerLeft .animeTwo {
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.containerLeft:hover .animeTwo {
+    transform: translateX(-24px);
+}
+
+.containerRight .animeTwo {
+transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.containerRight:hover .animeTwo {
+    transform: translateX(24px);
+}

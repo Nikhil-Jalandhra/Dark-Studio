@@ -39,8 +39,18 @@ function Slider() {
     <div className='w-full h-screen relative'>
 
         <div className='w-full absolute z-[10] flex justify-between items-center px-[40px] h-screen'>
-            <div className='w-[80px] h-[480px] flex justify-center items-center border-[1px] border-gray-800' onClick={changeContent}><TfiArrowLeft/></div>
-            <div className='w-[80px] h-[480px] flex justify-center items-center border-[1px] border-gray-800' onClick={changeContent}><TfiArrowRight/></div>
+            <div className='w-[80px] containerLeft h-[480px] flex justify-center items-center border-[1px] border-gray-800' onClick={changeContent}>
+              <div className=' w-[18px] flex overflow-hidden'>
+                <p className='animeTwo mr-[10px]'><TfiArrowLeft/></p>
+                <p className='animeTwo'><TfiArrowLeft/></p>
+              </div>
+            </div>
+            <div className='w-[80px] containerRight h-[480px] flex justify-center items-center border-[1px] border-gray-800' onClick={changeContent}>
+            <div className=' w-[18px] flex flex-row-reverse overflow-hidden text-left'>
+                <p className='animeTwo ml-[10px]'><TfiArrowRight/></p>
+                <p className='animeTwo'><TfiArrowRight/></p>
+              </div>
+            </div>
         </div>
 
           <div className='w-full h-screen absolute flex justify-center text-center top-0'>
