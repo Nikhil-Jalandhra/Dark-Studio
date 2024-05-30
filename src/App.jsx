@@ -1,8 +1,9 @@
 import "./app.css"
-import LandingPage from "./Container/LandingPage"
-import ImagesPage from "./Container/ImagesPage"
 import Slider from "./Container/Slider"
 import Status from "./Container/Status"
+import Footer from "./Container/Footer"
+import ImagesPage from "./Container/ImagesPage"
+import LandingPage from "./Container/LandingPage"
 import locomotiveScroll from 'locomotive-scroll'
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
     <ImagesPage/>
     <Slider/>
     <Status/>
+    <Footer/>
     </div>
     </>
   )
