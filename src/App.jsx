@@ -1,4 +1,4 @@
-import "./app.css"
+import "./App.css"
 import Slider from "./Container/Slider"
 import Status from "./Container/Status"
 import Footer from "./Container/Footer"
