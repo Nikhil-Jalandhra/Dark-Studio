@@ -9,6 +9,10 @@ import { easeIn } from 'framer-motion/dom';
 
 function Slider() {
 
+  const date = new Date
+
+  const time = date.getTime()
+
   const content = {
     data: [
       {
@@ -55,7 +59,7 @@ function Slider() {
 
           <div className='w-full h-screen absolute flex justify-center text-center top-0'>
           <motion.div
-          key={changePath}
+          key={time}
           initial={{y:50,opacity: 0}}
           animate={{y:0, opacity: 1}}
           transition={{duration: 1, ease: easeInOut}} 
