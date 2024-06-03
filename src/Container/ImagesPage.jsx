@@ -34,12 +34,12 @@ function ImagesPage() {
   ]
 
   return (
-    <div className='w-full h-full py-3 px-[40px]'>
+    <div className='w-full h-full py-3 px-[40px] sm:px-[20px]'>
 
       {Images.map((image,index)=>(
-        <div key={index} className='w-full h-screen py-[10px]'>
+        <div key={index} className='w-full lg:h-screen md:h-[500px] h-[320px] py-[10px]'>
         <div className=' relative w-full h-full rounded-md'>
-          <div className='absolute px-[30px] z-[1] font-semibold w-full h-[80px] items-center flex justify-between'>
+          <div className='absolute px-[30px] z-[1] font-semibold w-full lg:h-[80px] h-[60px] items-center flex justify-between'>
               <p>{image.text}</p>
               <p>{image.date}</p>
           </div>
@@ -48,9 +48,9 @@ function ImagesPage() {
               className='w-full h-full opacity-[0.7] object-cover rounded-md' 
               src={image.window} alt="" />
           </div>
-          <div className=' absolute w-full flex flex-col items-center top-[350px]'>
+          <div className=' absolute w-full flex flex-col items-center top-0 lg:mt-[330px] md:mt-[330px] mt-[160px] '>
                   <p 
-                  className=' uppercase text-[180px]' 
+                  className=' uppercase lg:text-[180px] text-[50px]' 
                   style={{fontFamily : "mainFont"}}>
                       {image.Heading}
                   </p>

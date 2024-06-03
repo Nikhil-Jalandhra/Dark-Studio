@@ -29,7 +29,7 @@ function LandingPage() {
                 </div>
                 </div>
             </div>
-            <div className='w-full h-full flex items-center justify-center text-[40px] uppercase' style={{fontFamily : "mainFont"}}>
+            <div className='w-full h-full flex items-center justify-center lg:text-[40px] text-[30px] uppercase' style={{fontFamily : "mainFont"}}>
                 Dark-Studio
             </div>
             <div className='flex h-full items-center'>
@@ -53,10 +53,10 @@ function LandingPage() {
         initial={{y: 50}}
         transition={{ease: easeInOut, duration: 2}}
         className='w-full absolute z-[10] flex flex-col items-center overflow-hidden'>
-        <div className='text-[340px] z-[10] uppercase' style={{fontFamily : "mainFont"}}>
+        <div className='lg:text-[300px] whitespace-nowrap lg:mt-[100px] mt-[120px] text-[150px] z-[10] uppercase leading-none' style={{fontFamily : "mainFont"}}>
             Creative Designer
         </div>
-        <div className='text-[30px] mt-[-55px] text-center `z-[10]'>"Creating breathtaking designs that <br />captivate, inspire, and leave lasting impressions"</div>
+        <div className='text-[30px] text-center `z-[10]'>"Creating breathtaking designs that <br />captivate, inspire, and leave lasting impressions"</div>
         <div className='text-[13px] mt-[30px] z-[10] uppercase '>scroll</div>
         <div className='w-[1px] h-[55px] bg-slate-800 mt-[15px] overflow-hidden'>
             <motion.div
