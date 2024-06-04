@@ -9,11 +9,6 @@ function LandingPage() {
 
   return (
       <div className='w-full h-screen'>
-        <motion.div 
-        animate={{y:-750}}
-        transition={{duration: 2, ease: easeOut}}
-        className='w-full h-full bg-black absolute z-[16]'></motion.div>
-
         <div className='w-full h-[90px] px-[10px] items-center absolute text-[17px] z-[11] flex'>
             <div className='flex h-full items-center'>
                 <div className=' flex items-center justify-center containers h-[30px] mx-[25px] py-[30px] cursor-pointer overflow-hidden'>
@@ -48,11 +43,8 @@ function LandingPage() {
             </div>
         </div>
 
-        <motion.div 
-        animate={{y: 0}}
-        initial={{y: 50}}
-        transition={{ease: easeInOut, duration: 2}}
-        className='w-full absolute z-[10] flex flex-col items-center overflow-hidden'>
+        <div 
+        className='w-full absolute mt-[50px] z-[10] flex flex-col items-center overflow-hidden'>
         <div className='lg:text-[300px] whitespace-nowrap lg:mt-[100px] mt-[120px] text-[150px] z-[10] uppercase leading-none' style={{fontFamily : "mainFont"}}>
             Creative Designer
         </div>
@@ -65,7 +57,7 @@ function LandingPage() {
             transition={{ duration: 2, repeat: Infinity}}
             className='w-full h-[20px] bg-white'></motion.div>
         </div>
-        </motion.div>
+        </div>
 
 
         <div className='flex w-full p-[10px]'>

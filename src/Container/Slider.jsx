@@ -41,9 +41,9 @@ function Slider() {
 
 
   return (
-    <div className='w-full h-screen relative'>
+    <div className='w-full lg:h-screen md:h-[600px] bg-orange-300 relative'>
 
-        <div className='w-full absolute z-[10] flex lg:justify-between lg:items-center items-end px-[40px] h-screen'>
+        <div className='w-full absolute z-[10] flex lg:justify-between lg:items-center items-end px-[40px] lg:h-screen md:h-[600px]'>
             <div className='lg:w-[80px] w-full mx-[5px] rounded-xl containerLeft lg:h-[480px] h-[80px] flex justify-center items-center border-[1px] border-gray-800' onClick={changeContent}>
               <div className=' w-[18px] flex overflow-hidden'>
                 <p className='animeTwo mr-[10px]'><TfiArrowLeft/></p>
@@ -58,7 +58,7 @@ function Slider() {
             </div>
         </div>
 
-          <div className='w-full h-screen absolute flex justify-center text-center lg:top-0 top-[100px]'>
+          <div className='w-full h-screen absolute flex justify-center text-center lg:top-[100px] top-0'>
           <motion.div
           key={time}
           initial={{y:50,opacity: 0}}
@@ -75,7 +75,7 @@ function Slider() {
           animate={{y:0, opacity: 1}}
           transition={{duration: 1.8, ease: easeInOut}}   
           className='absolute lg:top-[250px] top-[250px] flex flex-col items-center uppercase'>
-            <p className=' lg:text-[120px] md:text-[70px] text-[60px] lg:leading-[120px] md:leading-[70px] leading-[60px] '
+            <p className=' lg:text-[80px] md:text-[70px] text-[60px] lg:leading-[80px] md:leading-[70px] leading-[60px] '
               style={{fontFamily : "mainFont"}}>
                      " {content.data[changePath].heading1}<br />{content.data[changePath].heading2}"
             </p>
