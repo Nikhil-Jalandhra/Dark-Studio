@@ -38,12 +38,12 @@ function Footer() {
   ]
 
   return (
-    <div className='w-full h-screen py-[20px] px-[40px]'>
-      <div className='h-[30vh] flex items-center py-[20px] w-full overflow-hidden containerFooter border-[1px] border-[#1E1F20] rounded-xl'>
+    <div className='w-full lg:h-screen md:h-[600px] py-[20px] ld:px-[40px] px-[20px]'>
+      <div className='lg:h-[30vh] h-[150px] flex items-center lg:py-[20px] py-[10px] w-full overflow-hidden containerFooter border-[1px] border-[#1E1F20] rounded-xl'>
         <motion.div 
         animate={{x: "-100%"}}
         transition={{duration: 15, repeat: Infinity, ease: 'linear'}}
-        className='h-full flex items-center text-[160px] uppercase leading-none overflow-hidden' style={{minWidth: "fit-content", fontFamily: "mainFont"}}>
+        className='h-full flex items-center lg:text-[160px] text-[120px] uppercase leading-none overflow-hidden' style={{minWidth: "fit-content", fontFamily: "mainFont"}}>
           <div className='w-full whitespace-nowrap h-full animeFooter'>
             <p className='animeFooter' >Let's work together</p>
             <p className='animeFooter' >Let's work together</p>
@@ -58,7 +58,7 @@ function Footer() {
         <motion.div 
         animate={{x: "-100%"}}
         transition={{duration: 15, repeat: Infinity, ease: 'linear'}}
-        className='w-full h-full flex items-center text-[160px] uppercase leading-none overflow-hidden' style={{minWidth: "fit-content", fontFamily: "mainFont"}}>
+        className='w-full h-full flex items-center lg:text-[160px] text-[120px] uppercase leading-none overflow-hidden' style={{minWidth: "fit-content", fontFamily: "mainFont"}}>
           <div className='w-full whitespace-nowrap h-full animeFooter'>
             <p className='animeFooter' >Let's work together</p>
             <p className='animeFooter' >Let's work together</p>
@@ -72,7 +72,7 @@ function Footer() {
         </motion.div>
       </div>
 
-      <div className='w-full h-[55vh] my-[30px] flex border-[1px] py-[20px] px-[40px] border-[#1E1F20] rounded-xl'>
+      <div className='w-full lg:h-[55vh] h-[350px] my-[30px] flex border-[1px] py-[20px] px-[40px] border-[#1E1F20] rounded-xl'>
         <div className='w-1/2 h-full flex flex-col'>
           <p className='text-[35px] leading-tight'>Ready to start your<br />next project?</p>
           <div>

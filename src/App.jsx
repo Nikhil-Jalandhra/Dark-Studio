@@ -17,7 +17,7 @@ function App() {
     <motion.div 
         animate={{y: "-100%"}}
         transition={{duration: 3, ease: easeOut}}
-        className='w-full h-full bg-black fixed z-[16]'></motion.div>
+        className='w-full h-full bg-[#0C0D0E] fixed z-[16]'></motion.div>
     <motion.div
     animate={{y: 0}}
     initial={{y: 100}}
