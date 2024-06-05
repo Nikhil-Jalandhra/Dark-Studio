@@ -34,7 +34,7 @@ function ImagesPage() {
   ]
 
   return (
-    <div className='w-full h-full py-3 px-[40px] sm:px-[20px]'>
+    <div className='w-full h-full py-3 lg:px-[40px] md:px-[30px] px-[10px]'>
 
       {Images.map((image,index)=>(
         <div key={index} className='w-full lg:h-screen md:h-[500px] h-[320px] py-[10px]'>
@@ -67,7 +67,7 @@ function ImagesPage() {
 
 
     <div 
-    className='containers h-[70px] flex justify-center items-center 
+    className='containers lg:h-[70px] md:h-[60px] h-[50px] flex justify-center items-center 
     text-white border-[1px] border-gray-800 rounded-md my-3'>
       <div className='h-[30px] overflow-hidden'>
       <p className='anime'>View All Project</p>

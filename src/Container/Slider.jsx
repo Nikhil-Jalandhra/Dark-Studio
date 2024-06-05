@@ -43,14 +43,14 @@ function Slider() {
   return (
     <div className='w-full lg:h-screen md:h-[600px] h-[450px] bg-orange-300 relative'>
 
-        <div className='w-full h-full absolute z-[10] flex lg:justify-between lg:items-center items-end px-[40px] lg:h-screen md:h-[600px]'>
-            <div className='lg:w-[80px] w-full mx-[5px] rounded-xl containerLeft lg:h-[480px] md:h-[80px] h-[50px] flex justify-center items-center border-[1px] border-gray-800' onClick={changeContent}>
+        <div className='w-full h-full absolute z-[10] flex lg:justify-between lg:items-center items-end lg:px-[40px] md:px-[30px] px-[15px] lg:h-screen md:h-[600px]'>
+            <div className='lg:w-[80px] w-full lg:mx-[5px] mx-[2px] rounded-xl containerLeft lg:h-[480px] md:h-[80px] h-[35px] flex justify-center items-center border-[1px] border-gray-800' onClick={changeContent}>
               <div className=' w-[18px] flex overflow-hidden'>
                 <p className='animeTwo mr-[10px]'><TfiArrowLeft/></p>
                 <p className='animeTwo'><TfiArrowLeft/></p>
               </div>
             </div>
-            <div className='lg:w-[80px] w-full mx-[5px] rounded-xl containerRight lg:h-[480px]  md:h-[80px] h-[50px] flex justify-center items-center border-[1px] border-gray-800' onClick={changeContent}>
+            <div className='lg:w-[80px] w-full lg:mx-[5px] md:mx-[3px] mx-[2px] rounded-xl containerRight lg:h-[480px]  md:h-[80px] h-[35px] flex justify-center items-center border-[1px] border-gray-800' onClick={changeContent}>
             <div className=' w-[18px] flex flex-row-reverse overflow-hidden text-left'>
                 <p className='animeTwo ml-[10px]'><TfiArrowRight/></p>
                 <p className='animeTwo'><TfiArrowRight/></p>
@@ -81,7 +81,7 @@ function Slider() {
             </p>
               
             <p className='flex 
-              items-center lg:text-[18px] font-normal lg:mt-[40px] ld:mt-[20px] md:mt-[15px] mt-[10px]'>
+              items-center lg:text-[18px] text-[13px] font-normal lg:mt-[40px] ld:mt-[20px] md:mt-[15px] mt-[10px] whitespace-nowrap'>
                 {content.data[changePath].name} <BsDot/> {content.data[changePath].founder}
             </p>
           </motion.div>
