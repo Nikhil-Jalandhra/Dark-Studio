@@ -44,7 +44,7 @@ function LandingPage() {
         </div>
 
         <div 
-        className='w-full h-[80vh] absolute z-[10] flex flex-col items-center justify-end overflow-hidden pb-[40px]'>
+        className='w-full h-[100vh] absolute z-[10] flex flex-col items-center justify-end overflow-hidden pb-[40px]'>
         <div className='lg:text-[300px] whitespace-nowrap lg:mt-[100px] mt-[120px] md:text-[150px] text-[90px] z-[10] uppercase leading-none' style={{fontFamily : "mainFont"}}>
             Creative Designer
         </div>
@@ -61,10 +61,10 @@ function LandingPage() {
 
 
         <div className='flex w-full h-screen px-[10px] pt-[10px]'>
-            <div className=' w-1/2 lg:h-screen md:h-screen h-[80vh] lg:mr-[10px] mr-[5px] opacity-[0.5]'>
+            <div className=' lg:h-screen md:h-screen h-[80vh] lg:mr-[10px] mr-[5px] opacity-[0.5]'>
                 <img src={Landing} alt="" className='rounded-xl h-full object-cover' />
             </div>
-            <div className=' w-1/2 lg:h-screen md:h-screen h-[80vh] opacity-[0.5]'>
+            <div className='lg:h-screen md:h-screen h-[80vh] opacity-[0.5]'>
                 <img src={Landing1} alt="" className='rounded-xl h-full object-cover' />
             </div>
         </div>

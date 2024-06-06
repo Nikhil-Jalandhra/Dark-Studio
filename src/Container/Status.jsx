@@ -28,7 +28,7 @@ function Status() {
     ]
 
   return (
-    <div className='w-full lg:h-screen md:h-[600px] h-[500px] bg-teal-500'>
+    <div className='w-full lg:h-screen md:h-[600px] h-[500px]'>
       <div className='w-full lg:h-[30vh] md:h-[150px] h-[120px] lg:pt-[10vh] pt-[50px] flex'>
         {content.map((material,index)=> (
             <div key={index} className='h-full w-1/4 border-[1px] flex justify-center items-center border-[#1E1F20]'>
@@ -38,7 +38,7 @@ function Status() {
         ))}
         </div>
 
-        <div className='relative w-full lg:h-[60vh] md:h-[400px] h-[300px] bg-orange-400 lg:mt-[60px] flex-col text-center flex justify-center items-center'>
+        <div className='relative w-full lg:h-[60vh] md:h-[400px] h-[300px] lg:mt-[60px] flex-col text-center flex justify-center items-center'>
             <p className='lg:text-[50px] md:text-[40px] text-[20px] lg:leading-[65px] md:leading-[55px] leading-[35px]'>
                 "Specializing in designs that<br />wield influence over your<br />desired audience."
             </p>

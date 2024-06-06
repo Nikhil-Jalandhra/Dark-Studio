@@ -41,7 +41,7 @@ function Slider() {
 
 
   return (
-    <div className='w-full lg:h-screen md:h-[600px] h-[450px] bg-orange-300 relative'>
+    <div className='w-full lg:h-screen md:h-[600px] h-[450px] relative'>
 
         <div className='w-full h-full absolute z-[10] flex lg:justify-between lg:items-center items-end lg:px-[40px] md:px-[30px] px-[15px] lg:h-screen md:h-[600px]'>
             <div className='lg:w-[80px] w-full lg:mx-[5px] mx-[2px] rounded-xl containerLeft lg:h-[480px] md:h-[80px] h-[35px] flex justify-center items-center border-[1px] border-gray-800' onClick={changeContent}>

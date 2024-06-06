@@ -20,7 +20,7 @@ function App() {
         className='w-full h-full bg-[#0C0D0E] fixed z-[16]'></motion.div>
     <motion.div
     animate={{y: 0}}
-    initial={{y: 100}}
+    initial={{y: 50}}
     transition={{ease: easeInOut, duration: 2}}
     >
       <LandingPage/>
