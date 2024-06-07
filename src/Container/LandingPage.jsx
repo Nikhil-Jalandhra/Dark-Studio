@@ -69,7 +69,6 @@ function LandingPage() {
             </div>
         </div>
         <div style={{background: "linear-gradient(0deg, rgba(12,13,14,1) 60%, transparent 100%)"}} className='w-full lg:h-screen md:h-[50vh] h-[60vh] absolute lg:top-[10px] bottom-[-15px]'></div>
-        <div></div>
     </div>
   );
 }
