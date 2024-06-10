@@ -77,7 +77,7 @@ function Footer() {
         <div className='lg:w-1/2 md:w-1/2 h-full flex flex-col'>
           <p className='lg:text-[35px] text-[25px] leading-tight'>Ready to start your<br />next project?</p>
           <div>
-          <div className=' w-[200px] mt-[15px] containers px-4 h-[35px] flex justify-center items-center border-[1px] border-gray-700 rounded-full cursor-pointer overflow-hidden'>
+          <div className=' w-[200px] mt-[15px] containers px-4 h-[33px] flex justify-center items-center border-[1px] border-gray-700 rounded-full cursor-pointer overflow-hidden'>
                   <div className='h-[30px] overflow-hidden'>
                       <p className='anime'>Let's work together</p>
                       <p className='anime'>Let's work together</p>
@@ -85,7 +85,7 @@ function Footer() {
                   </div>
           </div>
         </div>
-        <div className='w-1/2 lg:flex md:flex justify-evenly h-full'>
+        <div className='w-1/2 lg:flex md:flex justify-evenly h-full mt-[20px]'>
           <div className=' w-full'>
             <div>
             <p className=' uppercase mb-[10px]'>Navigation</p>
@@ -102,9 +102,8 @@ function Footer() {
             </div>
             </div>
           </div>
-          <div className=' w-full'>
-            <div>
-            <p className=' uppercase mb-[10px]'>Template</p>
+          <div className=' w-full mt-[20px]'>
+            <p className=' uppercase mb-[5px]'>Template</p>
               <div className='text-[20px]'>
                 {navigator1.map((content,index)=>(
                    <div key={index} className=' flex items-center containers h-[30px] cursor-pointer overflow-hidden '>
@@ -115,7 +114,6 @@ function Footer() {
                    </div>
                 ))}
              
-            </div>
             </div>
           </div>
           <div className=' uppercase w-full'>

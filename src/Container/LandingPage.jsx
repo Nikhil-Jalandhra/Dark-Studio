@@ -55,7 +55,7 @@ function LandingPage() {
             </div>
         </div>
 
-        <div className=' lg:hidden w-full flex items-center justify-between h-[50px] pt-[10px] z-[11] leading-none absolute bg-red-700 px-[15px]'>
+        <div className=' lg:hidden w-full flex items-center justify-between h-[50px] pt-[10px] z-[11] leading-none absolute px-[15px]'>
             <div className='h-full flex lg:text-[40px] text-[30px] uppercase'
             style={{fontFamily : "mainFont"}}>
                     Dark-Studio
