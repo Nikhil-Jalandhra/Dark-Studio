@@ -117,7 +117,7 @@ function Footer() {
             </div>
           </div>
           <div className=' uppercase w-full'>
-          <p className=' uppercase mb-[10px]'>Template</p>
+          <p className=' uppercase mb-[10px]'>Social</p>
           <div className='flex'>
             <div className=' text-[30px] flex items-center containers h-[30px] cursor-pointer overflow-hidden '>
                 <div className='h-[30px] overflow-hidden'>
