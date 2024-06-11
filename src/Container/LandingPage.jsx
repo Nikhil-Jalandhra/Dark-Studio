@@ -70,7 +70,7 @@ function LandingPage() {
         animate={{y: 0}} 
         initial={{y: -100}}
         transition={{duration: 5, ease: 'linear'}}
-        className={`w-full h-[250px] ${show ? "flex" : "hidden"} text-[20px] flex flex-col bg-green-400 mt-[50px] absolute z-[11]`}>
+        className={`w-full h-[250px] ${show ? "flex" : "hidden"} text-[20px] flex flex-col bg-[#0C0D0E] mt-[50px] absolute z-[11]`}>
             <div 
                 className='containers flex font-semibold h-1/4 justify-center items-center 
             text-white border-b-[1px] border-gray-800 rounded-md '>
