@@ -5,7 +5,6 @@ import { TfiArrowLeft } from "react-icons/tfi";
 import { BsDot } from "react-icons/bs";
 import Profile from '../Images/Profile.jpg'
 import Profile1 from '../Images/Profile1.jpg'
-import { easeIn } from 'framer-motion/dom';
 
 function Slider() {
 

@@ -2,7 +2,7 @@ import {React, useState} from 'react';
 import Landing from "../Images/Landing.jpg"
 import Landing1 from '../Images/Landing1.jpg';
 import { IoReorderThreeOutline } from "react-icons/io5";
-import { easeInOut, easeOut, motion } from 'framer-motion';
+import { motion } from 'framer-motion';
 
 function LandingPage() {
 
@@ -15,8 +15,6 @@ function LandingPage() {
     const showNav = () => {
         setShow(!show)
     }
-
-    console.log(show)
 
   return (
       <div className='w-full lg:h-screen md:h-screen h-[80vh]'>
