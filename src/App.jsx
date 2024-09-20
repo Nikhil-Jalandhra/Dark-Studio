@@ -11,6 +11,8 @@ function App() {
 
   const smoothScroll = new locomotiveScroll();
 
+  smoothScroll
+
   return (
     <>
     <div className="w-full bg-[#0C0D0E] text-white">
