@@ -45,7 +45,7 @@ function Status() {
 
 
             <div className='containers mt-[30px] px-4 h-[35px] flex justify-center items-center  border-[1px] border-gray-700 rounded-full cursor-pointer overflow-hidden'>
-                <div className='h-[30px] overflow-hidden'>
+                <div className='h-[30px] pt-[3px] lg:pt-0 overflow-hidden'>
                     <p className='anime'>View my services</p>
                     <p className='anime'>View my services</p>
                 </div>

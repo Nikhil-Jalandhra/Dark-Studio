@@ -78,7 +78,7 @@ function Footer() {
           <p className='lg:text-[35px] text-[25px] leading-tight'>Ready to start your<br />next project?</p>
           <div>
           <div className=' w-[200px] mt-[15px] containers px-4 h-[33px] flex justify-center items-center border-[1px] border-gray-700 rounded-full cursor-pointer overflow-hidden'>
-                  <div className='h-[30px] overflow-hidden'>
+                  <div className='h-[30px]  pt-[3px] lg:pt-0 overflow-hidden'>
                       <p className='anime'>Let's work together</p>
                       <p className='anime'>Let's work together</p>
                   </div>

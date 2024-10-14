@@ -54,7 +54,7 @@ function ImagesPage() {
                       {image.Heading}
                   </p>
                   <div className=' containers px-4 h-[35px] flex justify-center items-center  border-[1px] border-gray-700 rounded-full cursor-pointer overflow-hidden'>
-                  <div className='h-[30px] mt-1.3 overflow-hidden'>
+                  <div className='h-[30px] mt-[5px] overflow-hidden'>
                       <p className='anime'>View Project</p>
                       <p className='anime'>View Project</p>
                   </div>
@@ -68,7 +68,7 @@ function ImagesPage() {
     <div 
     className='containers lg:h-[70px] md:h-[60px] h-[50px] flex justify-center items-center 
     text-white border-[1px] border-gray-800 rounded-md my-3'>
-      <div className='h-[30px] overflow-hidden'>
+      <div className='h-[30px]  pt-[3px] lg:pt-0  overflow-hidden'>
       <p className='anime'>View All Project</p>
       <p className='anime'>View All Project</p>
       </div>
