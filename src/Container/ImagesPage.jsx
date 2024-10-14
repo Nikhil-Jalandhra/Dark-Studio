@@ -1,8 +1,7 @@
-import {React} from 'react';
-import window1 from '../Images/window1.jpg'
-import window2 from '../Images/window2.jpg'
-import window3 from '../Images/window3.jpg'
-import window4 from '../Images/window4.jpg'
+import window1 from '../Images/window1.jpg';
+import window2 from '../Images/window2.jpg';
+import window3 from '../Images/window3.jpg';
+import window4 from '../Images/window4.jpg';
 
 function ImagesPage() {
 
@@ -55,7 +54,7 @@ function ImagesPage() {
                       {image.Heading}
                   </p>
                   <div className=' containers px-4 h-[35px] flex justify-center items-center  border-[1px] border-gray-700 rounded-full cursor-pointer overflow-hidden'>
-                  <div className='h-[30px] mt-1 overflow-hidden'>
+                  <div className='h-[30px] mt-1.3 overflow-hidden'>
                       <p className='anime'>View Project</p>
                       <p className='anime'>View Project</p>
                   </div>
